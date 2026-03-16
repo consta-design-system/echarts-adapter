@@ -1,6 +1,6 @@
 {
   "name": "@consta/echarts-adapter",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "scripts": {
     "postinstall": "yarn install-peers && husky install",
     "tsc-dry-run": "tsc --noEmit",
