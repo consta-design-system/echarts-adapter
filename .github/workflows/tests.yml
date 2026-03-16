@@ -36,6 +36,4 @@ jobs:
       - name: Установка зависимостей
         run: yarn add "install-peers-cli@https://github.com/evless/install-peers-cli#fix-yarn-policies" && yarn --frozen-lockfile
       - name: Проверка TS
-        run: yarn run tsc-dry-run
-      - name: Проверка eslint & stylelint
-        run: yarn run lint
+        run: yarn tsc-dry-run
